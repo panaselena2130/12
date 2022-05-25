@@ -25,6 +25,7 @@ jobs:
   
   
    runs-on: ubuntu-latest
+   needs: [lena_build]
    steps:
     
         - name: Print Hello_world 
