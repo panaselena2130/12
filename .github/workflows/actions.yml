@@ -18,6 +18,15 @@ jobs:
     steps:
             
        - name: Print Hello_world 
-         run: echo 'Hello, world! from lena_build'
+         run: echo "Hello, world! from lena_build"
 
+
+  seva:
+  
+  
+   runs-on: ubuntu-latest
+   steps:
+    
+        - name: Print Hello_world 
+          run: echo "Hello, world! from lena_build"
  
